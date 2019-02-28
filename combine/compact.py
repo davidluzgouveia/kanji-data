@@ -1,10 +1,14 @@
 # Compacts the JSON outputs from kanjidic, wanikani and combine
 
-with open("input.json", "rt", encoding="utf-8") as fp:
-    input = fp.read()
+filename = input("Enter input filename: ")
 
-output = input.replace("\n            ", "")
-output = output.replace("\n        ]", "]")    
+with open(filename, "rt", encoding="utf-8") as fp:
+    input_data = fp.read()
 
-with open("output.json", "wt", encoding="utf-8") as fp:
-    fp.write(output)
+output_data = input_data.replace("\n            ", "")
+output_data = output_data.replace("\n        ]", "]")    
+
+filename = input("Enter output filename: ")
+
+with open(filename, "wt", encoding="utf-8") as fp:
+    fp.write(output_data)
