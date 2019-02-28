@@ -35,16 +35,16 @@ def get_kanjidic_data():
         if misc is not None:
             grade = misc.find("grade")
             if grade is not None:
-                entry["grade"] = grade.text
+                entry["grade"] = int(grade.text)
             freq = misc.find("freq")
             if freq is not None:
-                entry["freq"] = freq.text
+                entry["freq"] = int(freq.text)
             jlpt = misc.find("jlpt")
             if jlpt is not None:
-                entry["jlpt"] = jlpt.text
+                entry["jlpt"] = int(jlpt.text)
             stroke_count = misc.find("stroke_count")
             if stroke_count is not None:
-                entry["strokes"] = stroke_count.text                                   
+                entry["strokes"] = int(stroke_count.text)
         
         reading_meaning = character.find("reading_meaning")
         if reading_meaning is not None:
