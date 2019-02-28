@@ -6,6 +6,8 @@ Most of the data is the same as the KANJIDIC dataset, but converted to JSON for 
 
 The Python scripts used to extract and organize all of the data are also provided. Even if my choice of fields does not match your requirements, the scripts might still be useful to extract what you need.
 
+Note: Some of the meanings and readings that were extracted from WaniKani have a `*` or a `~` prefix. I added these to denote when an item is not a primary answer or not an accepted answer entirely on WaniKani, respectively.
+
 ## References
 
 All of the data comes from the following sources:
