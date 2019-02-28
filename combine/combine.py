@@ -3,13 +3,13 @@ import json
 # Takes kanjidic.json and replaces all JLPT values with the ones from jlpt-kanji.json
 # Also adds in information from WaniKani, replacing the readings and meanings when possible
 
-with open("jlpt-kanji.json", "rt", encoding="utf-8") as fp:
+with open("..\\jlpt\\jlpt-kanji.json", "rt", encoding="utf-8") as fp:
     jlpt_kanji = json.load(fp)
 
-with open("wanikani-kanji.json", "rt", encoding="utf-8") as fp:
+with open("..\\wanikani\\wanikani-kanji.json", "rt", encoding="utf-8") as fp:
     wanikani_kanji = json.load(fp)    
 
-with open("kanjidic.json", "rt", encoding="utf-8") as fp:
+with open("..\\kanjidic\\kanjidic.json", "rt", encoding="utf-8") as fp:
     kanjidic = json.load(fp)
 
 output = {}
