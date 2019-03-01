@@ -34,6 +34,10 @@ Here's what a single entry in the file looks like:
 
 Many of these fields can be `null` so be weary of that. For instance, there are entries that don't exist in WaniKani, or that are not part of the JLPT sets, so those fields will be `null`.
 
+## Browse
+
+You can also browse the contents of `kanji-jouyou.json` using [this page](https://davidluzgouveia.github.io/kanji-data/index.html)
+
 ## References
 
 All of the data comes from the following sources:
