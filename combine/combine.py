@@ -1,13 +1,12 @@
 import json
 
-# Takes kanjidic.json and replaces all JLPT values with the ones from jlpt.json
-# Also adds in information from wanikani.json, replacing the readings and meanings when possible
+# Takes kanjidic.json and combines it with jlpt.json and wanikani.json
 
 with open("..\\jlpt\\jlpt.json", "rt", encoding="utf-8") as fp:
     jlpt = json.load(fp)
 
 with open("..\\wanikani\\wanikani.json", "rt", encoding="utf-8") as fp:
-    wanikani_kanji = json.load(fp)    
+    wanikani = json.load(fp)
 
 with open("..\\kanjidic\\kanjidic.json", "rt", encoding="utf-8") as fp:
     kanjidic = json.load(fp)
@@ -15,39 +14,45 @@ with open("..\\kanjidic\\kanjidic.json", "rt", encoding="utf-8") as fp:
 output = {}
 
 # Start with all the entries that are actually in WaniKani to preserve order
-for key, value in wanikani_kanji.items():
-    if key not in kanjidic:
+for key, wanikani_value in wanikani.items():
+    if key not in kanjidic: # catches the "repeater" kanji that WaniKani has
         continue
     kanjidic_value = kanjidic[key]
-    jlpt_level = jlpt[key] if key in jlpt else None
     entry = {
         "strokes": kanjidic_value["strokes"],
         "grade": kanjidic_value["grade"],
         "freq": kanjidic_value["freq"],
-        "jlpt": jlpt_level,
-        "wanikani": value["level"],
-        "radicals": value["radicals"],
-        "meanings": value["meanings"],
-        "readings_on": value["readings_on"],
-        "readings_kun": value["readings_kun"],
+        "jlpt_old": kanjidic_value["jlpt"],
+        "jlpt_new": jlpt[key] if key in jlpt else None,
+        "meanings": kanjidic_value["meanings"],
+        "readings_on": kanjidic_value["readings_on"],
+        "readings_kun": kanjidic_value["readings_kun"],
+        "wk_level": wanikani_value["level"],
+        "wk_radicals": wanikani_value["radicals"],
+        "wk_meanings": wanikani_value["meanings"],
+        "wk_readings_on": wanikani_value["readings_on"],
+        "wk_readings_kun": wanikani_value["readings_kun"],
     }
     output[key] = entry
 
-# Then add the remaining ones after
-for key, value in kanjidic.items():
+# Then add the remaining entries that do not exist in WaniKani
+for key, kanjidic_value in kanjidic.items():
     if key in output:
         continue
-    jlpt_level = jlpt[key] if key in jlpt else None
     entry = {
-        "strokes": value["strokes"],
-        "grade": value["grade"],
-        "freq": value["freq"],
-        "jlpt": jlpt_level,
-        "wanikani": None,
-        "radicals": None,
-        "meanings": value["meanings"],
-        "readings_on": value["readings_on"],
-        "readings_kun": value["readings_kun"],
+        "strokes": kanjidic_value["strokes"],
+        "grade": kanjidic_value["grade"],
+        "freq": kanjidic_value["freq"],
+        "jlpt_old":  kanjidic_value["jlpt"],
+        "jlpt_new": jlpt[key] if key in jlpt else None,
+        "meanings": kanjidic_value["meanings"],
+        "readings_on": kanjidic_value["readings_on"],
+        "readings_kun": kanjidic_value["readings_kun"],
+        "wk_level": None,
+        "wk_radicals": None,
+        "wk_meanings": None,
+        "wk_readings_on": None,
+        "wk_readings_kun": None,
     }
     output[key] = entry
 
