@@ -27,7 +27,8 @@ Here's what a single entry in the file looks like:
     "wk_meanings": ["Win"],
     "wk_readings_on": ["しょう"],
     "wk_readings_kun": ["!か"]
-}```
+}
+```
 
 ## References
 
