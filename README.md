@@ -36,7 +36,7 @@ Many of these fields can be `null` so be weary of that. For instance, there are 
 
 ## Browse
 
-You can also browse the contents of `kanji-jouyou.json` using [this page](https://davidluzgouveia.github.io/kanji-data/index.html).
+You can also browse the contents of `kanji-jouyou.json` using [this page](https://davidluzgouveia.github.io/kanji-data/).
 
 ## References
 
