@@ -17,6 +17,11 @@ def get_kanjidic_data():
     xml = data.decode("utf-8")
     tree = etree.fromstring(xml)
 
+    # Source: https://github.com/olsgaard/Japanese_nlp_scripts/blob/master/hiragana_katakana_translitteration.py
+    katakana_chart = "ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヽヾ"
+    hiragana_chart = "ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖゝゞ"
+    kat2hir = str.maketrans(katakana_chart, hiragana_chart)
+
     for character in tree.iter("character"):
         entry = {
             "strokes": None,
@@ -61,7 +66,7 @@ def get_kanjidic_data():
                 for reading in readings:
                     r_type = reading.get("r_type")
                     if r_type == "ja_on":
-                        entry["readings_on"].append(reading.text)
+                        entry["readings_on"].append(reading.text.translate(kat2hir))
                     elif r_type == "ja_kun":
                         entry["readings_kun"].append(reading.text)                    
 
