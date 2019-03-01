@@ -4,6 +4,8 @@ This repository contains a [JSON file](kanji.json) combining all of the kanji da
 
 Most of the data is the same as the KANJIDIC dataset, but converted to JSON for ease of use, stripped of information I didn't need, and extended with updated JLPT levels and WaniKani content.
 
+All of the data was extracted and processed using only scripts, which should decrease the chances of human error - unless there is some bug in the code, in which case it will be easy to fix and regenerate the data.
+
 The Python scripts used to extract and organize all of the data are also provided. Even if my choice of fields does not match your requirements, the scripts might still be useful to extract what you need.
 
 > Note: Some of the meanings and readings that were extracted from WaniKani have a `^` or a `!` prefix. I added these to denote when an item is *not a primary answer* (`^`) or *not an accepted answer* (`!`) on WaniKani. These characters don't appear at the start of any other string in the dataset, so if you prefer to remove them, you can do a simple search and replace from `"^` and `"!` to `"`.
