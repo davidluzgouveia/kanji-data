@@ -1,15 +1,15 @@
 import json
 
 # Processes the files created by wanikani-get into a simpler format
-# Outputs wanikani-kanji.json with a list of all kanjis in WaniKani and associated information
+# Outputs wanikani.json with a list of all kanjis in WaniKani and associated information
 # Each kanji has information on its level, radicals, meanings and readings
-# Note: Meanings and readings get a prefix * if not primary and ~ if not accepted
+# Note: Meanings and readings get a prefix ^ if not primary and ! if not accepted
 
 radicals = {}
 kanjis = {}
 
 def process_radicals():
-    with open("wanikani-radical-raw.json", "rt", encoding="utf-8") as fp:
+    with open("wanikani-radical.json", "rt", encoding="utf-8") as fp:
         input = json.load(fp)
     for entry in input:
         id = entry["id"]
@@ -25,7 +25,7 @@ def get_prefix(value):
     return ""
 
 def process_kanjis():
-    with open("wanikani-kanji-raw.json", "rt", encoding="utf-8") as fp:
+    with open("wanikani-kanji.json", "rt", encoding="utf-8") as fp:
         input = json.load(fp)
     for entry in input:
         data = entry["data"]
@@ -55,5 +55,5 @@ def process_kanjis():
 process_radicals()
 process_kanjis()
 
-with open("wanikani-kanji.json", "wt", encoding="utf-8") as fp:
+with open("wanikani.json", "wt", encoding="utf-8") as fp:
     json.dump(kanjis, fp, indent=4, ensure_ascii=False)

@@ -4,7 +4,7 @@ import requests
 from lxml import html
 
 # Scrapes JLPT kanji and level information from Jonathan Waller's JLPT Resources page (http://www.tanos.co.uk/jlpt/)
-# Outputs a JSON file (jlpt.json) with a mapping of characters to JLPT levels
+# Outputs jlpt.json with a mapping of characters to JLPT levels
 
 jlpt = {}
 

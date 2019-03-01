@@ -6,7 +6,7 @@ import json
 with open("..\\jlpt\\jlpt.json", "rt", encoding="utf-8") as fp:
     jlpt = json.load(fp)
 
-with open("..\\wanikani\\wanikani-kanji.json", "rt", encoding="utf-8") as fp:
+with open("..\\wanikani\\wanikani.json", "rt", encoding="utf-8") as fp:
     wanikani_kanji = json.load(fp)    
 
 with open("..\\kanjidic\\kanjidic.json", "rt", encoding="utf-8") as fp:
@@ -51,5 +51,5 @@ for key, value in kanjidic.items():
     }
     output[key] = entry
 
-with open("kanji.json", "wt", encoding="utf-8") as fp:
+with open("..\\kanji.json", "wt", encoding="utf-8") as fp:
     json.dump(output, fp, indent=4, ensure_ascii=False)

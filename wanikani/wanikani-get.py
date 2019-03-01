@@ -3,7 +3,7 @@ import json
 import time
 
 # Queries the WaniKani API (https://docs.api.wanikani.com/) to get all of the subjects data into JSON files on disk
-# Outputs three files: wanikani-radical-raw.json, wanikani-kanji-raw.json and wanikani-vocabulary-raw.json
+# Outputs three files: wanikani-radical.json, wanikani-kanji.json and wanikani-vocabulary.json
 # The format of these files is the same as the one described in the API, but without pagination, and split by type
 
 # IMPORTANT: Put your WaniKani API key here
@@ -48,11 +48,11 @@ def split_subjects():
 get_subjects()
 split_subjects()
 
-with open("wanikani-radical-raw.json", "wt", encoding="utf-8") as fp:
+with open("wanikani-radical.json", "wt", encoding="utf-8") as fp:
     json.dump(radical, fp, indent=4, ensure_ascii=False)
 
-with open("wanikani-kanji-raw.json", "wt", encoding="utf-8") as fp:
+with open("wanikani-kanji.json", "wt", encoding="utf-8") as fp:
     json.dump(kanji, fp, indent=4, ensure_ascii=False)
 
-with open("wanikani-vocabulary-raw.json", "wt", encoding="utf-8") as fp:
+with open("wanikani-vocabulary.json", "wt", encoding="utf-8") as fp:
     json.dump(vocabulary, fp, indent=4, ensure_ascii=False)
