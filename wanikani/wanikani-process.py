@@ -19,9 +19,9 @@ def process_radicals():
 
 def get_prefix(value):
     if not value["accepted_answer"]:
-        return "~"
+        return "!"
     if not value["primary"]:
-        return "*"
+        return "^"
     return ""
 
 def process_kanjis():
