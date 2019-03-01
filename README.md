@@ -22,7 +22,7 @@ Here's what a single entry in the file looks like:
     "jlpt_old": 2,
     "jlpt_new": 3,
     "meanings": ["victory","win","prevail","excel"],
-    "readings_on": ["ショウ"],
+    "readings_on": ["しょう"],
     "readings_kun": ["か.つ","-が.ち","まさ.る","すぐ.れる","かつ"],
     "wk_level": 9,
     "wk_radicals": ["Moon","Gladiator","Power"],
