@@ -17,6 +17,7 @@ table, th, td {
   <h1>kanji-jouyou.json</h1>
   <h2><a href="https://github.com/davidluzgouveia/kanji-data">https://github.com/davidluzgouveia/kanji-data</a></h2>
   <div v-show="loading">Loading data...</div>
+  <p v-show="!loading" style="display:none">Count: {{ Object.keys(content).length }}</p>
   <table v-show="!loading" style="display:none">
     <thead>
       <tr>
