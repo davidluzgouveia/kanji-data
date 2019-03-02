@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>kanji-jouyou.json</title>
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <style type="text/css">
-table {
-  border-collapse: collapse;
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px 60px 60px; 
+  background-color: rgb(250,250,250);
 }
-table, th, td {
-  border: 1px solid black;
-  padding: 10px;
+.center {
+  text-align: center;
 }
 </style>
 </head>
 <body>
 <div id="app">
-  <h1>kanji-jouyou.json</h1>
-  <h2><a href="https://github.com/davidluzgouveia/kanji-data">https://github.com/davidluzgouveia/kanji-data</a></h2>
-  <div v-show="loading">Loading data...</div>
-  <p v-show="!loading" style="display:none">Count: {{ Object.keys(content).length }}</p>
-  <table v-show="!loading" style="display:none">
+  <header>
+    <h1>kanji-jouyou.json</h1>
+    <h4><a href="https://github.com/davidluzgouveia/kanji-data">https://github.com/davidluzgouveia/kanji-data</a></h2>
+    <div v-show="loading">Loading data...</div>
+    <p v-show="!loading" style="display:none">Count: {{ Object.keys(content).length }}</p>
+  </header>
+  <table class="pure-table pure-table-striped" v-show="!loading" style="display:none">
     <thead>
       <tr>
         <th></th>
@@ -39,16 +46,16 @@ table, th, td {
     </thead>
     <tbody>
       <tr v-for="(value, key) in content">
-        <td>{{ key }}</td>
-        <td>{{ value.strokes }}</td>
-        <td>{{ value.grade }}</td>
-        <td>{{ value.freq }}</td>
-        <td>{{ value.jlpt_old }}</td>
-        <td>{{ value.jlpt_new }}</td>
+        <td class="center">{{ key }}</td>
+        <td class="center">{{ value.strokes }}</td>
+        <td class="center">{{ value.grade }}</td>
+        <td class="center">{{ value.freq }}</td>
+        <td class="center">{{ value.jlpt_old }}</td>
+        <td class="center">{{ value.jlpt_new }}</td>
         <td v-html="format(value.meanings)"></td>
         <td v-html="format(value.readings_on)"></td>
         <td v-html="format(value.readings_kun)"></td>
-        <td>{{ value.wk_level }}</td>
+        <td class="center">{{ value.wk_level }}</td>
         <td v-html="format(value.wk_radicals)"></td>
         <td v-html="format(value.wk_meanings)"></td>
         <td v-html="format(value.wk_readings_on)"></td>
