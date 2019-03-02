@@ -12,9 +12,18 @@ body {
   padding: 20px 60px 60px; 
   background-color: rgb(250,250,250);
 }
-.center {
-  text-align: center;
+td.big {
+  font-size: 250%;
+  font-weight: 500;
 }
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(3, 164, 196);
+}
+.center, th { text-align: center; }
+.primary { color: rgb(68, 181, 23); }
+.secondary { color: rgb(3, 164, 196); }
+.unacceptable { color: rgb(188, 13, 57); }
 </style>
 </head>
 <body>
@@ -46,7 +55,7 @@ body {
     </thead>
     <tbody>
       <tr v-for="(value, key) in content">
-        <td class="center">{{ key }}</td>
+        <td class="center big">{{ key }}</td>
         <td class="center">{{ value.strokes }}</td>
         <td class="center">{{ value.grade }}</td>
         <td class="center">{{ value.freq }}</td>
@@ -57,9 +66,9 @@ body {
         <td v-html="format(value.readings_kun)"></td>
         <td class="center">{{ value.wk_level }}</td>
         <td v-html="format(value.wk_radicals)"></td>
-        <td v-html="format(value.wk_meanings)"></td>
-        <td v-html="format(value.wk_readings_on)"></td>
-        <td v-html="format(value.wk_readings_kun)"></td>
+        <td v-html="special_format(value.wk_meanings)"></td>
+        <td v-html="special_format(value.wk_readings_on)"></td>
+        <td v-html="special_format(value.wk_readings_kun)"></td>
       </tr>  
     </tbody>
   </table>
@@ -75,7 +84,24 @@ var app = new Vue({
   },
   methods: {
     format: function(list) {
-      return (list != null) ? list.join("<br>") : "";
+      return list != null ? list.map(i => `<div>${i}</div>`).join("") : null;
+    },
+    special_format: function(list) {
+      if(list == null) {
+        return null;
+      }
+      return list.map(i => {
+        var style = "primary";
+        var text = i;
+        if(text[0] == "!") {
+            style = "unacceptable";
+            text = text.substring(1);
+        } else if(text[0] == "^") {
+          style = "secondary";
+          text = text.substring(1);
+        }
+        return `<div class="${style}">${text}</div>`;
+      }).join("");
     }
   }
 });
