@@ -25,10 +25,10 @@ Here's what a single entry in the file looks like:
     "readings_on": ["しょう"],
     "readings_kun": ["か.つ","-が.ち","まさ.る","すぐ.れる","かつ"],
     "wk_level": 9,
-    "wk_radicals": ["Moon","Gladiator","Power"],
     "wk_meanings": ["Win"],
     "wk_readings_on": ["しょう"],
-    "wk_readings_kun": ["!か"]
+    "wk_readings_kun": ["!か"],
+    "wk_radicals": ["Moon","Gladiator","Power"]
 }
 ```
 
