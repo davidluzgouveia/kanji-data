@@ -28,10 +28,10 @@ for key, wanikani_value in wanikani.items():
         "readings_on": kanjidic_value["readings_on"],
         "readings_kun": kanjidic_value["readings_kun"],
         "wk_level": wanikani_value["level"],
-        "wk_radicals": wanikani_value["radicals"],
         "wk_meanings": wanikani_value["meanings"],
         "wk_readings_on": wanikani_value["readings_on"],
         "wk_readings_kun": wanikani_value["readings_kun"],
+        "wk_radicals": wanikani_value["radicals"],
     }
     output[key] = entry
 
@@ -49,10 +49,10 @@ for key, kanjidic_value in kanjidic.items():
         "readings_on": kanjidic_value["readings_on"],
         "readings_kun": kanjidic_value["readings_kun"],
         "wk_level": None,
-        "wk_radicals": None,
         "wk_meanings": None,
         "wk_readings_on": None,
         "wk_readings_kun": None,
+        "wk_radicals": None,
     }
     output[key] = entry
 

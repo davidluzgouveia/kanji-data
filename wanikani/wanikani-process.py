@@ -31,16 +31,14 @@ def process_kanjis():
         data = entry["data"]
         kanji = {
             "level": 0,
-            "radicals": [],
             "meanings": [],
             "readings_on": [],
             "readings_kun": [],
+            "radicals": [],
         }
         characters = data["characters"]
-        kanjis[characters] = kanji            
+        kanjis[characters] = kanji
         kanji["level"] = data["level"]
-        for radical_id in data["component_subject_ids"]:
-            kanji["radicals"].append(radicals[radical_id])
         for meaning in data["meanings"]:
             kanji["meanings"].append(get_prefix(meaning) + meaning["meaning"])
         for reading in data["readings"]:
@@ -51,6 +49,8 @@ def process_kanjis():
                 kanji["readings_on"].append(get_prefix(reading) + value)
             elif reading["type"] == "kunyomi":
                 kanji["readings_kun"].append(get_prefix(reading) + value)
+        for radical_id in data["component_subject_ids"]:
+            kanji["radicals"].append(radicals[radical_id])
 
 process_radicals()
 process_kanjis()
