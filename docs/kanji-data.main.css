@@ -1,0 +1,31 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px 60px 60px;
+  background-color: rgb(250,250,250);
+}
+
+td.big {
+  font-size: 250%;
+  font-weight: 500;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(3, 164, 196);
+}
+
+.center, th {
+  text-align: center;
+}
+
+.primary {
+  color: rgb(68, 181, 23);
+}
+
+.secondary {
+  color: rgb(3, 164, 196);
+}
+
+.unacceptable {
+  color: rgb(188, 13, 57);
+}

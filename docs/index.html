@@ -1,115 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>kanji-jouyou.json</title>
-<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-<style type="text/css">
-body {
-  font-family: 'Open Sans', sans-serif;
-  padding: 20px 60px 60px; 
-  background-color: rgb(250,250,250);
-}
-td.big {
-  font-size: 250%;
-  font-weight: 500;
-}
-a:link, a:visited {
-  text-decoration: none;
-  color: rgb(3, 164, 196);
-}
-.center, th { text-align: center; }
-.primary { color: rgb(68, 181, 23); }
-.secondary { color: rgb(3, 164, 196); }
-.unacceptable { color: rgb(188, 13, 57); }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kanji-jouyou.json</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="kanji-data.main.css">
 </head>
 <body>
-<div id="app">
-  <header>
-    <h1>kanji-jouyou.json</h1>
-    <h4><a href="https://github.com/davidluzgouveia/kanji-data">https://github.com/davidluzgouveia/kanji-data</a></h2>
-    <div v-show="loading">Loading data...</div>
-    <p v-show="!loading" style="display:none">Count: {{ Object.keys(content).length }}</p>
-  </header>
-  <table class="pure-table pure-table-striped" v-show="!loading" style="display:none">
-    <thead>
-      <tr>
-        <th></th>
-        <th>strokes</th>
-        <th>grade</th>
-        <th>freq</th>
-        <th>jlpt_old</th>
-        <th>jlpt_new</th>
-        <th>meanings</th>
-        <th>readings_on</th>
-        <th>readings_kun</th>
-        <th>wk_level</th>
-        <th>wk_radicals</th>
-        <th>wk_meanings</th>
-        <th>wk_readings_on</th>
-        <th>wk_readings_kun</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="(value, key) in content">
-        <td class="center big">{{ key }}</td>
-        <td class="center">{{ value.strokes }}</td>
-        <td class="center">{{ value.grade }}</td>
-        <td class="center">{{ value.freq }}</td>
-        <td class="center">{{ value.jlpt_old }}</td>
-        <td class="center">{{ value.jlpt_new }}</td>
-        <td v-html="format(value.meanings)"></td>
-        <td v-html="format(value.readings_on)"></td>
-        <td v-html="format(value.readings_kun)"></td>
-        <td class="center">{{ value.wk_level }}</td>
-        <td v-html="format(value.wk_radicals)"></td>
-        <td v-html="special_format(value.wk_meanings)"></td>
-        <td v-html="special_format(value.wk_readings_on)"></td>
-        <td v-html="special_format(value.wk_readings_kun)"></td>
-      </tr>  
-    </tbody>
-  </table>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script>
-var app = new Vue({
-  el: '#app',
-  data: {
-    content: {},
-    loading: true
-  },
-  methods: {
-    format: function(list) {
-      return list != null ? list.map(i => `<div>${i}</div>`).join("") : null;
-    },
-    special_format: function(list) {
-      if(list == null) {
-        return null;
-      }
-      return list.map(i => {
-        var style = "primary";
-        var text = i;
-        if(text[0] == "!") {
-            style = "unacceptable";
-            text = text.substring(1);
-        } else if(text[0] == "^") {
-          style = "secondary";
-          text = text.substring(1);
-        }
-        return `<div class="${style}">${text}</div>`;
-      }).join("");
-    }
-  }
-});
-let url = "https://gitcdn.link/repo/davidluzgouveia/kanji-data/master/kanji-jouyou.json";
-$.getJSON(url, data => {
-    app.content = data;
-    app.loading = false;
-});
-</script>
+  <div id="app">
+    <header>
+      <h1>kanji-jouyou.json</h1>
+      <h4><a href="https://github.com/davidluzgouveia/kanji-data">https://github.com/davidluzgouveia/kanji-data</a></h2>
+      <div v-show="loading">Loading data...</div>
+      <p v-show="!loading" style="display:none">Count: {{ Object.keys(content).length }}</p>
+    </header>
+    <table class="pure-table pure-table-striped" v-show="!loading" style="display:none">
+      <thead>
+        <tr>
+          <th></th>
+          <th>strokes</th>
+          <th>grade</th>
+          <th>freq</th>
+          <th>jlpt_old</th>
+          <th>jlpt_new</th>
+          <th>meanings</th>
+          <th>readings_on</th>
+          <th>readings_kun</th>
+          <th>wk_level</th>
+          <th>wk_radicals</th>
+          <th>wk_meanings</th>
+          <th>wk_readings_on</th>
+          <th>wk_readings_kun</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(value, key) in content">
+          <td class="center big">{{ key }}</td>
+          <td class="center">{{ value.strokes }}</td>
+          <td class="center">{{ value.grade }}</td>
+          <td class="center">{{ value.freq }}</td>
+          <td class="center">{{ value.jlpt_old }}</td>
+          <td class="center">{{ value.jlpt_new }}</td>
+          <td v-html="format(value.meanings)"></td>
+          <td v-html="format(value.readings_on)"></td>
+          <td v-html="format(value.readings_kun)"></td>
+          <td class="center">{{ value.wk_level }}</td>
+          <td v-html="format(value.wk_radicals)"></td>
+          <td v-html="special_format(value.wk_meanings)"></td>
+          <td v-html="special_format(value.wk_readings_on)"></td>
+          <td v-html="special_format(value.wk_readings_kun)"></td>
+        </tr>  
+      </tbody>
+    </table>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="kanji-data.main.js"></script>
 </body>
 </html>
