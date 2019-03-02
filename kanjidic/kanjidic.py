@@ -1,6 +1,7 @@
 import gzip
 import json
 import requests
+import string
 import xml.etree.ElementTree as etree
 
 # Converts the KANJIDIC dictionary in xml.gz format into JSON discarding unneeded data
@@ -60,7 +61,7 @@ def get_kanjidic_data():
                 for meaning in meanings:
                     m_lang = meaning.get("m_lang")
                     if m_lang is None or m_lang == "en":
-                        entry["meanings"].append(meaning.text)
+                        entry["meanings"].append(string.capwords(meaning.text))
                 
                 readings = rmgroup.findall("reading")
                 for reading in readings:
