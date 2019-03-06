@@ -28,7 +28,7 @@ var app = new Vue({
   }
 });
 
-let url = "https://gitcdn.link/repo/davidluzgouveia/kanji-data/master/kanji-jouyou.json";
+let url = "https://raw.githubusercontent.com/davidluzgouveia/kanji-data/master/kanji-jouyou.json";
 $.getJSON(url, data => {
     app.content = data;
     app.loading = false;
