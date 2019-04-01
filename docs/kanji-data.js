@@ -2,7 +2,8 @@ var app = new Vue({
   el: '#app',
   data: {
     content: {},
-    loading: true
+    loading: true,
+    all: true
   },
   methods: {
     format: function(list) {
@@ -28,8 +29,11 @@ var app = new Vue({
   }
 });
 
-let url = "https://raw.githubusercontent.com/davidluzgouveia/kanji-data/master/wanikani/wanikani.json";
-$.getJSON(url, data => {
-    app.content = data;
-    app.loading = false;
-});
+function kanji_data_initialize(suffix) {
+  let url = "https://raw.githubusercontent.com/davidluzgouveia/kanji-data/master/kanji" + suffix + ".json";
+  $.getJSON(url, data => {
+      app.content = data;
+      app.loading = false;
+      app.all = false;
+  });
+}

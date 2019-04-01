@@ -2,13 +2,13 @@ import json
 
 # Takes kanjidic.json and combines it with jlpt.json and wanikani.json
 
-with open("..\\jlpt\\jlpt.json", "rt", encoding="utf-8") as fp:
+with open("jlpt.json", "rt", encoding="utf-8") as fp:
     jlpt = json.load(fp)
 
-with open("..\\wanikani\\wanikani.json", "rt", encoding="utf-8") as fp:
+with open("wanikani.json", "rt", encoding="utf-8") as fp:
     wanikani = json.load(fp)
 
-with open("..\\kanjidic\\kanjidic.json", "rt", encoding="utf-8") as fp:
+with open("kanjidic.json", "rt", encoding="utf-8") as fp:
     kanjidic = json.load(fp)
 
 output = {}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jouyou</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="kanji-data.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Jouyou</h1>
+      <h4><a href="https://github.com/davidluzgouveia/kanji-data">https://github.com/davidluzgouveia/kanji-data</a></h2>
+      <div v-show="loading">Loading data...</div>
+      <p v-show="!loading" >
+        <input type="checkbox" id="checkbox" v-model="all">
+        <label for="checkbox">Show All Columns</label>
+      </p>
+      <p v-show="!loading" style="display:none">Count: {{ Object.keys(content).length }}</p>
+    </header>
+    <table class="pure-table pure-table-striped" v-show="!loading" style="display:none">
+      <thead>
+        <tr>
+          <th></th>
+          <th v-show="all">strokes</th>
+          <th v-show="all">grade</th>
+          <th v-show="all">freq</th>
+          <th v-show="all">jlpt_old</th>
+          <th v-show="all">jlpt_new</th>
+          <th v-show="all">meanings</th>
+          <th v-show="all">readings_on</th>
+          <th v-show="all">readings_kun</th>
+          <th>wk_level</th>
+          <th>wk_meanings</th>
+          <th>wk_readings_on</th>
+          <th>wk_readings_kun</th>
+          <th>wk_radicals</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(value, key) in content">
+          <td class="center big japanese">{{ key }}</td>
+          <td v-show="all" class="center">{{ value.strokes }}</td>
+          <td v-show="all" class="center">{{ value.grade }}</td>
+          <td v-show="all" class="center">{{ value.freq }}</td>
+          <td v-show="all" class="center">{{ value.jlpt_old }}</td>
+          <td v-show="all" class="center">{{ value.jlpt_new }}</td>
+          <td v-show="all" v-html="format(value.meanings)"></td>
+          <td class="japanese" v-show="all" v-html="format(value.readings_on)"></td>
+          <td class="japanese" v-show="all" v-html="format(value.readings_kun)"></td>
+          <td class="center">{{ value.wk_level }}</td>
+          <td v-html="special_format(value.wk_meanings)"></td>
+          <td class="japanese" v-html="special_format(value.wk_readings_on)"></td>
+          <td class="japanese" v-html="special_format(value.wk_readings_kun)"></td>
+          <td v-html="format(value.wk_radicals)"></td>
+        </tr>  
+      </tbody>
+    </table>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="kanji-data.js"></script>
+  <script>kanji_data_initialize("-jouyou");</script>
+</body>
+</html>

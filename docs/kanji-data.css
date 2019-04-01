@@ -14,6 +14,10 @@ a:link, a:visited {
   color: rgb(3, 164, 196);
 }
 
+.japanese {
+  font-family: 'Meiryo';
+}
+
 .center, th {
   text-align: center;
 }
