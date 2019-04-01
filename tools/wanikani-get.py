@@ -37,7 +37,10 @@ def combine_pages():
             combined.append(entry)
 
 def split_subjects():
+    max_level = requests.get("https://api.wanikani.com/v2/user", headers=headers).json()["data"]["max_level_granted_by_subscription"]
     for entry in combined:
+        if entry["data"]["level"] > max_level:
+            continue
         if entry["object"] == "radical":
             radical.append(entry)
         if entry["object"] == "kanji":
