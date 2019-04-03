@@ -15,6 +15,7 @@ if input_filename == "kanji":
     compact("..\\kanji.json", "..\\kanji.json")
     compact("..\\kanji-jouyou.json", "..\\kanji-jouyou.json")
     compact("..\\kanji-kyouiku.json", "..\\kanji-kyouiku.json")
+    compact("..\\kanji-wanikani.json", "..\\kanji-wanikani.json")
 elif input_filename == "wanikani":
     compact("wanikani.json", "wanikani.json")
 elif input_filename == "kanjidic":

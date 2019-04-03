@@ -7,6 +7,7 @@ with open("..\\kanji.json", "rt", encoding="utf-8") as fp:
 
 kyouiku = {}
 jouyou = {}
+wanikani = {}
 
 for key, value in input.items():
     grade = value["grade"]
@@ -16,8 +17,18 @@ for key, value in input.items():
         kyouiku[key] = value
     jouyou[key] = value
 
+for key, value in input.items():
+    wk_level = value["wk_level"]
+    if wk_level is None:
+        continue
+    wanikani[key] = value
+wanikani = dict(sorted(wanikani.items(), key=lambda t: t[1]["wk_level"]))
+
 with open("..\\kanji-kyouiku.json", "wt", encoding="utf-8") as fp:
     json.dump(kyouiku, fp, indent=4, ensure_ascii=False)
 
 with open("..\\kanji-jouyou.json", "wt", encoding="utf-8") as fp:
     json.dump(jouyou, fp, indent=4, ensure_ascii=False)
+
+with open("..\\kanji-wanikani.json", "wt", encoding="utf-8") as fp:
+    json.dump(wanikani, fp, indent=4, ensure_ascii=False)
