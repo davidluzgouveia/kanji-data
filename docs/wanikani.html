@@ -24,6 +24,11 @@
       <thead>
         <tr>
           <th></th>
+          <th>wk_level</th>
+          <th>wk_meanings</th>
+          <th>wk_readings_on</th>
+          <th>wk_readings_kun</th>
+          <th>wk_radicals</th>
           <th v-show="all">strokes</th>
           <th v-show="all">grade</th>
           <th v-show="all">freq</th>
@@ -32,16 +37,16 @@
           <th v-show="all">meanings</th>
           <th v-show="all">readings_on</th>
           <th v-show="all">readings_kun</th>
-          <th>wk_level</th>
-          <th>wk_meanings</th>
-          <th>wk_readings_on</th>
-          <th>wk_readings_kun</th>
-          <th>wk_radicals</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="(value, key) in content">
           <td class="center big japanese">{{ key }}</td>
+          <td class="center">{{ value.wk_level }}</td>
+          <td v-html="special_format(value.wk_meanings)"></td>
+          <td class="japanese" v-html="special_format(value.wk_readings_on)"></td>
+          <td class="japanese" v-html="special_format(value.wk_readings_kun)"></td>
+          <td v-html="format(value.wk_radicals)"></td>
           <td v-show="all" class="center">{{ value.strokes }}</td>
           <td v-show="all" class="center">{{ value.grade }}</td>
           <td v-show="all" class="center">{{ value.freq }}</td>
@@ -50,12 +55,7 @@
           <td v-show="all" v-html="format(value.meanings)"></td>
           <td class="japanese" v-show="all" v-html="format(value.readings_on)"></td>
           <td class="japanese" v-show="all" v-html="format(value.readings_kun)"></td>
-          <td class="center">{{ value.wk_level }}</td>
-          <td v-html="special_format(value.wk_meanings)"></td>
-          <td class="japanese" v-html="special_format(value.wk_readings_on)"></td>
-          <td class="japanese" v-html="special_format(value.wk_readings_kun)"></td>
-          <td v-html="format(value.wk_radicals)"></td>
-        </tr>  
+        </tr>
       </tbody>
     </table>
   </div>
