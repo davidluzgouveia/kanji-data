@@ -1,0 +1,964 @@
+{
+    "Jlptn5": [
+        {
+            "kanji": "日",
+            "onyomi": {
+                "romaji": "nichi, jitsu",
+                "kana": "ニチ, ジツ"
+            },
+            "kunyomi": {
+                "romaji": "hi, -bi, -ka",
+                "kana": "ひ, -び, -か"
+            },
+            "translation": "day, sun, Japan, counter for days"
+        },
+        {
+            "kanji": "一",
+            "onyomi": {
+                "romaji": "ichi",
+                "kana": "イチ"
+            },
+            "kunyomi": {
+                "romaji": "hito(tsu)",
+                "kana": "ひと(つ)"
+            },
+            "translation": "one"
+        },
+        {
+            "kanji": "国",
+            "onyomi": {
+                "romaji": "koku",
+                "kana": "コク"
+            },
+            "kunyomi": {
+                "romaji": "kuni",
+                "kana": "くに"
+            },
+            "translation": "country"
+        },
+        {
+            "kanji": "人",
+            "onyomi": {
+                "romaji": "jin, nin",
+                "kana": "ジン、 ニン"
+            },
+            "kunyomi": {
+                "romaji": "hito",
+                "kana": "ひと"
+            },
+            "translation": "person"
+        },
+        {
+            "kanji": "年",
+            "onyomi": {
+                "romaji": "nen",
+                "kana": "ネン"
+            },
+            "kunyomi": {
+                "romaji": "toshi",
+                "kana": "とし"
+            },
+            "translation": "year, counter for years"
+        },
+        {
+            "kanji": "大",
+            "onyomi": {
+                "romaji": "dai, tai",
+                "kana": "ダイ、 タイ"
+            },
+            "kunyomi": {
+                "romaji": "oo(kii)",
+                "kana": "おお(きい)"
+            },
+            "translation": "large, big"
+        },
+        {
+            "kanji": "十",
+            "onyomi": {
+                "romaji": "juu",
+                "kana": "ジュウ"
+            },
+            "kunyomi": {
+                "romaji": "tou, to",
+                "kana": "とお、 と"
+            },
+            "translation": "ten, 10"
+        },
+        {
+            "kanji": "二",
+            "onyomi": {
+                "romaji": "ni, ji",
+                "kana": "ニ、 ジ"
+            },
+            "kunyomi": {
+                "romaji": "futa(tsu)",
+                "kana": "ふた(つ)"
+            },
+            "translation": "two, 2"
+        },
+        {
+            "kanji": "本",
+            "onyomi": {
+                "romaji": "hon",
+                "kana": "ホン"
+            },
+            "kunyomi": {
+                "romaji": "moto",
+                "kana": "もと"
+            },
+            "translation": "book, present, true, counter for long cylindrical things"
+        },
+        {
+            "kanji": "中",
+            "onyomi": {
+                "romaji": "chuu",
+                "kana": "チュウ"
+            },
+            "kunyomi": {
+                "romaji": "naka, uchi, ata(ru)",
+                "kana": "なか、 うち、 あた(る)"
+            },
+            "translation": "in, inside, middle, mean, center"
+        },
+        {
+            "kanji": "長",
+            "onyomi": {
+                "romaji": "chou",
+                "kana": "チョウ"
+            },
+            "kunyomi": {
+                "romaji": "naga(i), osa",
+                "kana": "なが(い)、 おさ"
+            },
+            "translation": "long, leader, superior, senior"
+        },
+        {
+            "kanji": "出",
+            "onyomi": {
+                "romaji": "shutsu, sui",
+                "kana": "シュツ、 スイ"
+            },
+            "kunyomi": {
+                "romaji": "de(ru), da(su), i(deru)",
+                "kana": "で(る)、 だ(す)、 い(でる)"
+            },
+            "translation": "exit, leave, go out"
+        },
+        {
+            "kanji": "三",
+            "onyomi": {
+                "romaji": "san",
+                "kana": "サン"
+            },
+            "kunyomi": {
+                "romaji": "mi(tsu)",
+                "kana": "み(つ)"
+            },
+            "translation": "three, 3"
+        },
+        {
+            "kanji": "時",
+            "onyomi": {
+                "romaji": "ji",
+                "kana": "ジ"
+            },
+            "kunyomi": {
+                "romaji": "toki, doki",
+                "kana": "とき、 -どき"
+            },
+            "translation": "time, hour"
+        },
+        {
+            "kanji": "行",
+            "onyomi": {
+                "romaji": "kou, gyou, an",
+                "kana": "コウ、 ギョウ、 アン"
+            },
+            "kunyomi": {
+                "romaji": "i(ku), yu(ku), okona(u)",
+                "kana": "い(く)、 ゆ(く)、 おこな(う)"
+            },
+            "translation": "going, journey, carry out, line, row"
+        },
+        {
+            "kanji": "見",
+            "onyomi": {
+                "romaji": "ken",
+                "kana": "ケン"
+            },
+            "kunyomi": {
+                "romaji": "mi(ru), mi(seru)",
+                "kana": "み(る)、 み(せる)"
+            },
+            "translation": "see, hopes, chances, idea, opinion, look at, visible"
+        },
+        {
+            "kanji": "月",
+            "onyomi": {
+                "romaji": "getsu, gatsu",
+                "kana": "ゲツ、 ガツ"
+            },
+            "kunyomi": {
+                "romaji": "tsuki",
+                "kana": "つき"
+            },
+            "translation": "month, moon"
+        },
+        {
+            "kanji": "分",
+            "onyomi": {
+                "romaji": "bun, fun, bu",
+                "kana": "ブン、 フン、 ブ"
+            },
+            "kunyomi": {
+                "romaji": "wa(keru)",
+                "kana": "わ(ける)"
+            },
+            "translation": "part, minute of time, understand"
+        },
+        {
+            "kanji": "後",
+            "onyomi": {
+                "romaji": "go, kou",
+                "kana": "ゴ、 コウ"
+            },
+            "kunyomi": {
+                "romaji": "nochi, ushi(ro), ato",
+                "kana": "のち、 うし(ろ)、 あと"
+            },
+            "translation": "behind, back, later"
+        },
+        {
+            "kanji": "前",
+            "onyomi": {
+                "romaji": "zen",
+                "kana": "ゼン"
+            },
+            "kunyomi": {
+                "romaji": "mae",
+                "kana": "まえ"
+            },
+            "translation": "in front, before"
+        },
+        {
+            "kanji": "生",
+            "onyomi": {
+                "romaji": "sei, shou",
+                "kana": "セイ、 ショウ"
+            },
+            "kunyomi": {
+                "romaji": "i(kiru), u(mu), o(u), ha(eru), nama",
+                "kana": "い(きる)、 う(む)、 お(う)、 は(える)、 なま"
+            },
+            "translation": "life, genuine, birth"
+        },
+        {
+            "kanji": "五",
+            "onyomi": {
+                "romaji": "go",
+                "kana": "ゴ"
+            },
+            "kunyomi": {
+                "romaji": "itsu(tsu)",
+                "kana": "いつ(つ)"
+            },
+            "translation": "five, 5"
+        },
+        {
+            "kanji": "間",
+            "onyomi": {
+                "romaji": "kan, ken",
+                "kana": "カン、 ケン"
+            },
+            "kunyomi": {
+                "romaji": "aida, ma, ai",
+                "kana": "あいだ、 ま、 あい"
+            },
+            "translation": "interval, space"
+        },
+        {
+            "kanji": "上",
+            "onyomi": {
+                "romaji": "jou, shou, shan",
+                "kana": "ジョウ、 ショウ、 シャン"
+            },
+            "kunyomi": {
+                "romaji": "ue, uwa, kami, a(geru), nobo(ru), tatematsu(ru)",
+                "kana": "うえ、 うわ-、 かみ、 あ(げる)、 のぼ(る)、 たてまつ(る)"
+            },
+            "translation": "above, up"
+        },
+        {
+            "kanji": "東",
+            "onyomi": {
+                "romaji": "tou",
+                "kana": "トウ"
+            },
+            "kunyomi": {
+                "romaji": "higashi",
+                "kana": "ひがし"
+            },
+            "translation": "east"
+        },
+        {
+            "kanji": "四",
+            "onyomi": {
+                "romaji": "shi",
+                "kana": "シ"
+            },
+            "kunyomi": {
+                "romaji": "yo(tsu), yon",
+                "kana": "よ(つ)、 よん"
+            },
+            "translation": "four, 4"
+        },
+        {
+            "kanji": "今",
+            "onyomi": {
+                "romaji": "kon, kin",
+                "kana": "コン、 キン"
+            },
+            "kunyomi": {
+                "romaji": "ima",
+                "kana": "いま"
+            },
+            "translation": "now; the present"
+        },
+        {
+            "kanji": "金",
+            "onyomi": {
+                "romaji": "kin, kon, gon",
+                "kana": "キン、 コン、 ゴン"
+            },
+            "kunyomi": {
+                "romaji": "kane, kana, gane",
+                "kana": "かね、 かな-、 -がね"
+            },
+            "translation": "gold"
+        },
+        {
+            "kanji": "九",
+            "onyomi": {
+                "romaji": "kyuu, ku",
+                "kana": "キュウ、 ク"
+            },
+            "kunyomi": {
+                "romaji": "kokono(tsu)",
+                "kana": "ここの(つ)"
+            },
+            "translation": "nine, 9"
+        },
+        {
+            "kanji": "入",
+            "onyomi": {
+                "romaji": "nyuu",
+                "kana": "ニュウ"
+            },
+            "kunyomi": {
+                "romaji": "i(ru), hai(ru)",
+                "kana": "い(る)、はい(る)"
+            },
+            "translation": "enter, insert"
+        },
+        {
+            "kanji": "学",
+            "onyomi": {
+                "romaji": "gaku",
+                "kana": "ガク"
+            },
+            "kunyomi": {
+                "romaji": "mana(bu)",
+                "kana": "まな(ぶ)"
+            },
+            "translation": "study, learning, science"
+        },
+        {
+            "kanji": "高",
+            "onyomi": {
+                "romaji": "kou",
+                "kana": "コウ"
+            },
+            "kunyomi": {
+                "romaji": "taka(i)",
+                "kana": "たか(い)"
+            },
+            "translation": "tall, high, expensive"
+        },
+        {
+            "kanji": "円",
+            "onyomi": {
+                "romaji": "en",
+                "kana": "エン"
+            },
+            "kunyomi": {
+                "romaji": "maru(i)",
+                "kana": "まる(い)"
+            },
+            "translation": "circle, yen, round"
+        },
+        {
+            "kanji": "子",
+            "onyomi": {
+                "romaji": "shi, su, tsu",
+                "kana": "シ、 ス、 ツ"
+            },
+            "kunyomi": {
+                "romaji": "ko, ne",
+                "kana": "こ、 ね"
+            },
+            "translation": "child"
+        },
+        {
+            "kanji": "外",
+            "onyomi": {
+                "romaji": "gai, ge",
+                "kana": "ガイ、 ゲ"
+            },
+            "kunyomi": {
+                "romaji": "soto, hoka, hazu-, to-",
+                "kana": "そと、 ほか、 はず(す)、 と-"
+            },
+            "translation": "outside"
+        },
+        {
+            "kanji": "八",
+            "onyomi": {
+                "romaji": "hachi",
+                "kana": "ハチ"
+            },
+            "kunyomi": {
+                "romaji": "ya(tsu), you",
+                "kana": "や(つ)、 よう"
+            },
+            "translation": "eight, 8"
+        },
+        {
+            "kanji": "六",
+            "onyomi": {
+                "romaji": "roku",
+                "kana": "ロク"
+            },
+            "kunyomi": {
+                "romaji": "mu(tsu), mui",
+                "kana": "む(つ)、 むい"
+            },
+            "translation": "six, 6"
+        },
+        {
+            "kanji": "下",
+            "onyomi": {
+                "romaji": "ka, ge",
+                "kana": "カ、 ゲ"
+            },
+            "kunyomi": {
+                "romaji": "shita, shimo, moto, sa(geru), kuda(ru), o(rosu)",
+                "kana": "した、 しも、 もと、 さ(げる)、 くだ(る)、 お(ろす)"
+            },
+            "translation": "below, down, descend, give, low, inferior"
+        },
+        {
+            "kanji": "来",
+            "onyomi": {
+                "romaji": "rai, tai",
+                "kana": "ライ、 タイ"
+            },
+            "kunyomi": {
+                "romaji": "kuru, kitaru, ki, ko",
+                "kana": "く.る、 きた.る、 き、 こ"
+            },
+            "translation": "come, due, next, cause, become"
+        },
+        {
+            "kanji": "気",
+            "onyomi": {
+                "romaji": "ki, ke",
+                "kana": "キ、 ケ"
+            },
+            "kunyomi": {
+                "romaji": "iki",
+                "kana": "いき"
+            },
+            "translation": "spirit, mind, air, atmosphere, mood"
+        },
+        {
+            "kanji": "小",
+            "onyomi": {
+                "romaji": "shou",
+                "kana": "ショウ"
+            },
+            "kunyomi": {
+                "romaji": "chii(sai), ko-, o-, sa-",
+                "kana": "ちい(さい)、 こ-、 お-、 さ-"
+            },
+            "translation": "little, small"
+        },
+        {
+            "kanji": "七",
+            "onyomi": {
+                "romaji": "shichi",
+                "kana": "シチ"
+            },
+            "kunyomi": {
+                "romaji": "nana(tsu), nano",
+                "kana": "なな(つ)、 なの"
+            },
+            "translation": "seven, 7"
+        },
+        {
+            "kanji": "山",
+            "onyomi": {
+                "romaji": "san, sen",
+                "kana": "サン、 セン"
+            },
+            "kunyomi": {
+                "romaji": "yama",
+                "kana": "やま"
+            },
+            "translation": "mountain"
+        },
+        {
+            "kanji": "話",
+            "onyomi": {
+                "romaji": "wa",
+                "kana": "ワ"
+            },
+            "kunyomi": {
+                "romaji": "hana(su), hanashi",
+                "kana": "はな(す)、 はなし"
+            },
+            "translation": "tale, talk"
+        },
+        {
+            "kanji": "女",
+            "onyomi": {
+                "romaji": "jo",
+                "kana": "ジョ"
+            },
+            "kunyomi": {
+                "romaji": "onnna, me",
+                "kana": "おんな、 め"
+            },
+            "translation": "woman, female"
+        },
+        {
+            "kanji": "北",
+            "onyomi": {
+                "romaji": "hoku",
+                "kana": "ホク"
+            },
+            "kunyomi": {
+                "romaji": "kita",
+                "kana": "きた"
+            },
+            "translation": "north"
+        },
+        {
+            "kanji": "午",
+            "onyomi": {
+                "romaji": "go",
+                "kana": "ゴ"
+            },
+            "kunyomi": {
+                "romaji": "uma",
+                "kana": "うま"
+            },
+            "translation": "noon, sign of the horse"
+        },
+        {
+            "kanji": "百",
+            "onyomi": {
+                "romaji": "hyaku, byaku",
+                "kana": "ヒャク、 ビャク"
+            },
+            "kunyomi": {
+                "romaji": "momo",
+                "kana": "もも"
+            },
+            "translation": "hundred"
+        },
+        {
+            "kanji": "書",
+            "onyomi": {
+                "romaji": "sho",
+                "kana": "ショ"
+            },
+            "kunyomi": {
+                "romaji": "kaku",
+                "kana": "か(く)"
+            },
+            "translation": "write"
+        },
+        {
+            "kanji": "先",
+            "onyomi": {
+                "romaji": "sen",
+                "kana": "セン"
+            },
+            "kunyomi": {
+                "romaji": "saki, ma(zu)",
+                "kana": "さき、 ま(ず)"
+            },
+            "translation": "before, ahead, previous, future, precedence"
+        },
+        {
+            "kanji": "名",
+            "onyomi": {
+                "romaji": "mei, myou",
+                "kana": "メイ、 ミョウ"
+            },
+            "kunyomi": {
+                "romaji": "na",
+                "kana": "な"
+            },
+            "translation": "name, noted, distinguished, reputation"
+        },
+        {
+            "kanji": "川",
+            "onyomi": {
+                "romaji": "sen",
+                "kana": "セン"
+            },
+            "kunyomi": {
+                "romaji": "kawa",
+                "kana": "かわ"
+            },
+            "translation": "river, stream"
+        },
+        {
+            "kanji": "千",
+            "onyomi": {
+                "romaji": "sen",
+                "kana": "セン"
+            },
+            "kunyomi": {
+                "romaji": "chi",
+                "kana": "ち"
+            },
+            "translation": "thousand"
+        },
+        {
+            "kanji": "水",
+            "onyomi": {
+                "romaji": "sui",
+                "kana": "スイ"
+            },
+            "kunyomi": {
+                "romaji": "mizu",
+                "kana": "みず"
+            },
+            "translation": "water"
+        },
+        {
+            "kanji": "半",
+            "onyomi": {
+                "romaji": "han",
+                "kana": "ハン"
+            },
+            "kunyomi": {
+                "romaji": "naka(ba)",
+                "kana": "なか(ば)"
+            },
+            "translation": "half, middle, odd number, semi-"
+        },
+        {
+            "kanji": "男",
+            "onyomi": {
+                "romaji": "dan, nan",
+                "kana": "ダン、 ナン"
+            },
+            "kunyomi": {
+                "romaji": "otoko, o",
+                "kana": "おとこ、 お"
+            },
+            "translation": "male; man"
+        },
+        {
+            "kanji": "西",
+            "onyomi": {
+                "romaji": "sei, sai",
+                "kana": "セイ、 サイ"
+            },
+            "kunyomi": {
+                "romaji": "nishi",
+                "kana": "にし"
+            },
+            "translation": "west"
+        },
+        {
+            "kanji": "電",
+            "onyomi": {
+                "romaji": "den",
+                "kana": "デン"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "electricity; electric powered"
+        },
+        {
+            "kanji": "校",
+            "onyomi": {
+                "romaji": "kou",
+                "kana": "コウ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "school, exam"
+        },
+        {
+            "kanji": "語",
+            "onyomi": {
+                "romaji": "go",
+                "kana": "ゴ"
+            },
+            "kunyomi": {
+                "romaji": "kata(ru)",
+                "kana": "かた(る)"
+            },
+            "translation": "word, speech, language"
+        },
+        {
+            "kanji": "土",
+            "onyomi": {
+                "romaji": "do, to",
+                "kana": "ド、 ト"
+            },
+            "kunyomi": {
+                "romaji": "tsuchi",
+                "kana": "つち"
+            },
+            "translation": "soil, earth, ground"
+        },
+        {
+            "kanji": "木",
+            "onyomi": {
+                "romaji": "boku, moku",
+                "kana": "ボク、 モク"
+            },
+            "kunyomi": {
+                "romaji": "ki, ko",
+                "kana": "き、 こ-"
+            },
+            "translation": "tree, wood"
+        },
+        {
+            "kanji": "聞",
+            "onyomi": {
+                "romaji": "bun, mon",
+                "kana": "ブン、 モン"
+            },
+            "kunyomi": {
+                "romaji": "ki(ku)",
+                "kana": "き(く)"
+            },
+            "translation": "to hear; to listen; to ask"
+        },
+        {
+            "kanji": "食",
+            "onyomi": {
+                "romaji": "shoku, jiki",
+                "kana": "ショク、 ジキ"
+            },
+            "kunyomi": {
+                "romaji": "k(u), ta(beru), ha(mu)",
+                "kana": "く(う)、 た(べる)、 は(む)"
+            },
+            "translation": "eat, food"
+        },
+        {
+            "kanji": "車",
+            "onyomi": {
+                "romaji": "sha",
+                "kana": "シャ"
+            },
+            "kunyomi": {
+                "romaji": "kuruma",
+                "kana": "くるま"
+            },
+            "translation": "car, wheel"
+        },
+        {
+            "kanji": "何",
+            "onyomi": {
+                "romaji": "ka",
+                "kana": "カ"
+            },
+            "kunyomi": {
+                "romaji": "nani, nan",
+                "kana": "なに、 なん"
+            },
+            "translation": "what"
+        },
+        {
+            "kanji": "南",
+            "onyomi": {
+                "romaji": "nan, na",
+                "kana": "ナン、 ナ"
+            },
+            "kunyomi": {
+                "romaji": "minami",
+                "kana": "みなみ"
+            },
+            "translation": "south"
+        },
+        {
+            "kanji": "万",
+            "onyomi": {
+                "romaji": "man, ban",
+                "kana": "マン、 バン"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "ten thousand, 10,000"
+        },
+        {
+            "kanji": "毎",
+            "onyomi": {
+                "romaji": "mai",
+                "kana": "マイ"
+            },
+            "kunyomi": {
+                "romaji": "goto(ni)",
+                "kana": "ごと(に)"
+            },
+            "translation": "every"
+        },
+        {
+            "kanji": "白",
+            "onyomi": {
+                "romaji": "haku, byaku",
+                "kana": "ハク、 ビャク"
+            },
+            "kunyomi": {
+                "romaji": "shiro(i)",
+                "kana": "しろ(い)"
+            },
+            "translation": "white"
+        },
+        {
+            "kanji": "天",
+            "onyomi": {
+                "romaji": "ten",
+                "kana": "テン"
+            },
+            "kunyomi": {
+                "romaji": "amatsu",
+                "kana": "あまつ"
+            },
+            "translation": "heavens, sky, imperial"
+        },
+        {
+            "kanji": "母",
+            "onyomi": {
+                "romaji": "bo",
+                "kana": "ボ"
+            },
+            "kunyomi": {
+                "romaji": "haha, kaa",
+                "kana": "はは、 かあ"
+            },
+            "translation": "mother"
+        },
+        {
+            "kanji": "火",
+            "onyomi": {
+                "romaji": "ka",
+                "kana": "カ"
+            },
+            "kunyomi": {
+                "romaji": "hi, bi, ho",
+                "kana": "ひ、 -び、 ほ-"
+            },
+            "translation": "fire"
+        },
+        {
+            "kanji": "右",
+            "onyomi": {
+                "romaji": "u, yuu",
+                "kana": "ウ、 ユウ"
+            },
+            "kunyomi": {
+                "romaji": "migi",
+                "kana": "みぎ"
+            },
+            "translation": "right"
+        },
+        {
+            "kanji": "読",
+            "onyomi": {
+                "romaji": "doku, toku, tou",
+                "kana": "ドク、 トク、 トウ"
+            },
+            "kunyomi": {
+                "romaji": "yo(mu)",
+                "kana": "よ(む)"
+            },
+            "translation": "to read"
+        },
+        {
+            "kanji": "友",
+            "onyomi": {
+                "romaji": "yuu",
+                "kana": "ユウ"
+            },
+            "kunyomi": {
+                "romaji": "tomo",
+                "kana": "とも"
+            },
+            "translation": "friend"
+        },
+        {
+            "kanji": "左",
+            "onyomi": {
+                "romaji": "sa, sha",
+                "kana": "サ、 シャ"
+            },
+            "kunyomi": {
+                "romaji": "hidari",
+                "kana": "ひだり"
+            },
+            "translation": "left"
+        },
+        {
+            "kanji": "休",
+            "onyomi": {
+                "romaji": "kyuu",
+                "kana": "キュウ"
+            },
+            "kunyomi": {
+                "romaji": "yasu(mu)",
+                "kana": "やす(む)"
+            },
+            "translation": "rest, day off, retire, sleep"
+        },
+        {
+            "kanji": "父",
+            "onyomi": {
+                "romaji": "fu",
+                "kana": "フ"
+            },
+            "kunyomi": {
+                "romaji": "chichi, tou",
+                "kana": "ちち、 とう"
+            },
+            "translation": "father"
+        },
+        {
+            "kanji": "雨",
+            "onyomi": {
+                "romaji": "u",
+                "kana": "ウ"
+            },
+            "kunyomi": {
+                "romaji": "ame, ama",
+                "kana": "あめ、 あま"
+            },
+            "translation": "rain"
+        }
+    ]
+}

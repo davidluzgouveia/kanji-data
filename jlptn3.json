@@ -1,0 +1,1204 @@
+{
+    "Jlptn3": [
+        {
+            "kanji": "政",
+            "onyomi": {
+                "romaji": "sei",
+                "kana": "セイ"
+            },
+            "kunyomi": {
+                "romaji": "matsurigoto",
+                "kana": "まつりごと"
+            },
+            "translation": "politics, government"
+        },
+        {
+            "kanji": "議",
+            "onyomi": {
+                "romaji": "gi",
+                "kana": "ギ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "deliberation, consultation, debate"
+        },
+        {
+            "kanji": "民",
+            "onyomi": {
+                "romaji": "min",
+                "kana": "ミン"
+            },
+            "kunyomi": {
+                "romaji": "tami",
+                "kana": "たみ"
+            },
+            "translation": "people, nation, subjects"
+        },
+        {
+            "kanji": "連",
+            "onyomi": {
+                "romaji": "ren",
+                "kana": "レン"
+            },
+            "kunyomi": {
+                "romaji": "tsura(naru), tsu(reru)",
+                "kana": "つら(なる)、つ(れる)"
+            },
+            "translation": "take along, lead, join, connect"
+        },
+        {
+            "kanji": "対",
+            "onyomi": {
+                "romaji": "tai, tsui",
+                "kana": "タイ、 ツイ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "opposite, even, equal, versus, anti-, compare"
+        },
+        {
+            "kanji": "部",
+            "onyomi": {
+                "romaji": "bu",
+                "kana": "ブ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "section, bureau, dept, class, copy, part, portion"
+        },
+        {
+            "kanji": "合",
+            "onyomi": {
+                "romaji": "gou, ga, ka",
+                "kana": "ゴウ、 ガッ、 カッ"
+            },
+            "kunyomi": {
+                "romaji": "a(u)",
+                "kana": "あ(う)、あい"
+            },
+            "translation": "fit, suit, join, 0.1"
+        },
+        {
+            "kanji": "市",
+            "onyomi": {
+                "romaji": "shi",
+                "kana": "シ"
+            },
+            "kunyomi": {
+                "romaji": "ichi",
+                "kana": "いち"
+            },
+            "translation": "market, city, town"
+        },
+        {
+            "kanji": "内",
+            "onyomi": {
+                "romaji": "nai",
+                "kana": "ナイ"
+            },
+            "kunyomi": {
+                "romaji": "uchi",
+                "kana": "うち"
+            },
+            "translation": "inside, within, between, among, house, home"
+        },
+        {
+            "kanji": "相",
+            "onyomi": {
+                "romaji": "sou, shou",
+                "kana": "ソウ、 ショウ"
+            },
+            "kunyomi": {
+                "romaji": "ai",
+                "kana": "あい"
+            },
+            "translation": "inter-, mutual, together, each other, minister of state"
+        },
+        {
+            "kanji": "定",
+            "onyomi": {
+                "romaji": "tei, jou",
+                "kana": "テイ、 ジョウ"
+            },
+            "kunyomi": {
+                "romaji": "sada(meru)",
+                "kana": "さだ(める)"
+            },
+            "translation": "determine, fix, establish, decide"
+        },
+        {
+            "kanji": "回",
+            "onyomi": {
+                "romaji": "kai",
+                "kana": "カイ"
+            },
+            "kunyomi": {
+                "romaji": "mawa(su)",
+                "kana": "まわ(す)"
+            },
+            "translation": "-times, round, revolve, counter"
+        },
+        {
+            "kanji": "選",
+            "onyomi": {
+                "romaji": "sen",
+                "kana": "セン"
+            },
+            "kunyomi": {
+                "romaji": "era(bu)",
+                "kana": "えら(ぶ)"
+            },
+            "translation": "elect, select, choose, prefer"
+        },
+        {
+            "kanji": "米",
+            "onyomi": {
+                "romaji": "bei, mai, meetoru",
+                "kana": "ベイ、 マイ、 メエトル"
+            },
+            "kunyomi": {
+                "romaji": "kome",
+                "kana": "こめ"
+            },
+            "translation": "rice, USA, meter"
+        },
+        {
+            "kanji": "実",
+            "onyomi": {
+                "romaji": "jitsu",
+                "kana": "ジツ"
+            },
+            "kunyomi": {
+                "romaji": "mi, mino(ru), makoto",
+                "kana": "み、みの(る)、 まこと"
+            },
+            "translation": "reality, truth"
+        },
+        {
+            "kanji": "関",
+            "onyomi": {
+                "romaji": "kan",
+                "kana": "カン"
+            },
+            "kunyomi": {
+                "romaji": "seki, kaka(waru)",
+                "kana": "せき、 かか(わる)"
+            },
+            "translation": "connection, barrier, gateway, involve, concerning"
+        },
+        {
+            "kanji": "決",
+            "onyomi": {
+                "romaji": "ketsu",
+                "kana": "ケツ"
+            },
+            "kunyomi": {
+                "romaji": "ki(meru)",
+                "kana": "き(める)"
+            },
+            "translation": "decide, fix, agree upon, appoint"
+        },
+        {
+            "kanji": "全",
+            "onyomi": {
+                "romaji": "zen",
+                "kana": "ゼン"
+            },
+            "kunyomi": {
+                "romaji": "matta(ku), sube(te)",
+                "kana": "まった(く)、 すべ(て)"
+            },
+            "translation": "whole, entire, all, complete, fulfill"
+        },
+        {
+            "kanji": "表",
+            "onyomi": {
+                "romaji": "hyou",
+                "kana": "ヒョウ"
+            },
+            "kunyomi": {
+                "romaji": "omote, arawa(su)",
+                "kana": "おもて、 あらわ(す)"
+            },
+            "translation": "surface, table, chart, diagram"
+        },
+        {
+            "kanji": "戦",
+            "onyomi": {
+                "romaji": "sen",
+                "kana": "セン"
+            },
+            "kunyomi": {
+                "romaji": "ikusa, tataka(u)",
+                "kana": "いくさ、 たたか(う)"
+            },
+            "translation": "war, battle, match"
+        },
+        {
+            "kanji": "経",
+            "onyomi": {
+                "romaji": "kei",
+                "kana": "ケイ"
+            },
+            "kunyomi": {
+                "romaji": "he(ru), ta(tsu)",
+                "kana": "へ(る)、 た(つ)"
+            },
+            "translation": "longitude, pass thru, expire, warp"
+        },
+        {
+            "kanji": "最",
+            "onyomi": {
+                "romaji": "sai",
+                "kana": "サイ"
+            },
+            "kunyomi": {
+                "romaji": "motto(mo)",
+                "kana": "もっと(も)"
+            },
+            "translation": "utmost, most, extreme"
+        },
+        {
+            "kanji": "現",
+            "onyomi": {
+                "romaji": "gen",
+                "kana": "ゲン"
+            },
+            "kunyomi": {
+                "romaji": "arawa(reru), utsu(tsu)",
+                "kana": "あらわ(れる)、 うつ(つ)"
+            },
+            "translation": "present, existing, actual"
+        },
+        {
+            "kanji": "調",
+            "onyomi": {
+                "romaji": "chou",
+                "kana": "チョウ"
+            },
+            "kunyomi": {
+                "romaji": "shira(beru), tono(u)",
+                "kana": "しら(べる)、ととの(う)"
+            },
+            "translation": "tune, tone, meter, prepare, investigate"
+        },
+        {
+            "kanji": "化",
+            "onyomi": {
+                "romaji": "ka, ke",
+                "kana": "カ、 ケ"
+            },
+            "kunyomi": {
+                "romaji": "ba(keru), fu(keru)",
+                "kana": " ば(ける)、 ふ(ける)"
+            },
+            "translation": "change, take the form of, influence, enchant, delude, -ization"
+        },
+        {
+            "kanji": "当",
+            "onyomi": {
+                "romaji": "tou",
+                "kana": "トウ"
+            },
+            "kunyomi": {
+                "romaji": "a(taru)",
+                "kana": "あ(たる)"
+            },
+            "translation": "hit, right, appropriate"
+        },
+        {
+            "kanji": "約",
+            "onyomi": {
+                "romaji": "yaku",
+                "kana": "ヤク"
+            },
+            "kunyomi": {
+                "romaji": "tsuzu(maru)",
+                "kana": "つづ(まる)"
+            },
+            "translation": "promise, approximately, shrink"
+        },
+        {
+            "kanji": "首",
+            "onyomi": {
+                "romaji": "shu",
+                "kana": "シュ"
+            },
+            "kunyomi": {
+                "romaji": "kubi",
+                "kana": "くび"
+            },
+            "translation": "neck"
+        },
+        {
+            "kanji": "法",
+            "onyomi": {
+                "romaji": "hou",
+                "kana": "ホウ"
+            },
+            "kunyomi": {
+                "romaji": "nori",
+                "kana": "のり"
+            },
+            "translation": "method, law, rule, principle, model, system"
+        },
+        {
+            "kanji": "性",
+            "onyomi": {
+                "romaji": "sei, shou",
+                "kana": "セイ、 ショウ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "sex, gender, nature"
+        },
+        {
+            "kanji": "的",
+            "onyomi": {
+                "romaji": "teki",
+                "kana": "テキ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "mark, target, object, adjective ending"
+        },
+        {
+            "kanji": "要",
+            "onyomi": {
+                "romaji": "you",
+                "kana": "ヨウ"
+            },
+            "kunyomi": {
+                "romaji": "i(ru), kaname",
+                "kana": "い(る)、 かなめ"
+            },
+            "translation": "need, main point, essence, pivot"
+        },
+        {
+            "kanji": "制",
+            "onyomi": {
+                "romaji": "sei",
+                "kana": "セイ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "system, law, rule"
+        },
+        {
+            "kanji": "治",
+            "onyomi": {
+                "romaji": "ji, chi",
+                "kana": "ジ、チ"
+            },
+            "kunyomi": {
+                "romaji": "nasa(meru), nao(ru)",
+                "kana": "おさ(める)、なお(る)"
+            },
+            "translation": "reign, cure, heal"
+        },
+        {
+            "kanji": "務",
+            "onyomi": {
+                "romaji": "mu",
+                "kana": "ム"
+            },
+            "kunyomi": {
+                "romaji": "tsuto(meru)",
+                "kana": "つと(める)"
+            },
+            "translation": "task, duties"
+        },
+        {
+            "kanji": "成",
+            "onyomi": {
+                "romaji": "sei, jou",
+                "kana": "セイ、 ジョウ"
+            },
+            "kunyomi": {
+                "romaji": "na(ru)",
+                "kana": "な(る)"
+            },
+            "translation": "turn into, become, get, grow, elapse"
+        },
+        {
+            "kanji": "期",
+            "onyomi": {
+                "romaji": "ki, go",
+                "kana": "キ、 ゴ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "period, time, date, term"
+        },
+        {
+            "kanji": "取",
+            "onyomi": {
+                "romaji": "shu",
+                "kana": "シュ"
+            },
+            "kunyomi": {
+                "romaji": "to(ru)",
+                "kana": "と(る)"
+            },
+            "translation": "take, fetch"
+        },
+        {
+            "kanji": "都",
+            "onyomi": {
+                "romaji": "to, tsu",
+                "kana": "ト、ツ"
+            },
+            "kunyomi": {
+                "romaji": "miyako",
+                "kana": "みやこ"
+            },
+            "translation": "metropolis, capital"
+        },
+        {
+            "kanji": "和",
+            "onyomi": {
+                "romaji": "wa, o",
+                "kana": "ワ、オ"
+            },
+            "kunyomi": {
+                "romaji": "yawa(ragu), nago(mu)",
+                "kana": "やわ(らぐ)、なご(む)"
+            },
+            "translation": "harmony, Japanese style, peace"
+        },
+        {
+            "kanji": "機",
+            "onyomi": {
+                "romaji": "ki",
+                "kana": "キ"
+            },
+            "kunyomi": {
+                "romaji": "hata",
+                "kana": "はた"
+            },
+            "translation": "machine, airplane, opportunity"
+        },
+        {
+            "kanji": "平",
+            "onyomi": {
+                "romaji": "hei, byou",
+                "kana": "ヘイ、ビョウ"
+            },
+            "kunyomi": {
+                "romaji": "tai(ra), hira",
+                "kana": " たい(ら)、ひら"
+            },
+            "translation": "even, flat, peace"
+        },
+        {
+            "kanji": "加",
+            "onyomi": {
+                "romaji": "ka",
+                "kana": "カ"
+            },
+            "kunyomi": {
+                "romaji": "kuwa(eru)",
+                "kana": "くわ(える)"
+            },
+            "translation": "add, addition, increase, join"
+        },
+        {
+            "kanji": "受",
+            "onyomi": {
+                "romaji": "ju",
+                "kana": "ジュ"
+            },
+            "kunyomi": {
+                "romaji": "u(keru)",
+                "kana": "う(ける)"
+            },
+            "translation": "accept, undergo, answer (phone), take"
+        },
+        {
+            "kanji": "続",
+            "onyomi": {
+                "romaji": "zoku",
+                "kana": "ゾク"
+            },
+            "kunyomi": {
+                "romaji": "tsuzuku",
+                "kana": "つづ(く)"
+            },
+            "translation": "continue, series, sequel"
+        },
+        {
+            "kanji": "進",
+            "onyomi": {
+                "romaji": "shin",
+                "kana": "シン"
+            },
+            "kunyomi": {
+                "romaji": "susu(mu)",
+                "kana": "すす(む)"
+            },
+            "translation": "advance, proceed"
+        },
+        {
+            "kanji": "数",
+            "onyomi": {
+                "romaji": "suu",
+                "kana": "スウ"
+            },
+            "kunyomi": {
+                "romaji": "kazu, kazo(eru)",
+                "kana": "かず、 かぞ(える)"
+            },
+            "translation": "number, strength, fate, law, figures"
+        },
+        {
+            "kanji": "記",
+            "onyomi": {
+                "romaji": "ki",
+                "kana": "キ"
+            },
+            "kunyomi": {
+                "romaji": "shiru(su)",
+                "kana": "しる(す)"
+            },
+            "translation": "scribe, account, narrative"
+        },
+        {
+            "kanji": "初",
+            "onyomi": {
+                "romaji": "sho",
+                "kana": "ショ"
+            },
+            "kunyomi": {
+                "romaji": "haji(me), hatsu",
+                "kana": "はじ(め)、はつ"
+            },
+            "translation": "first time, beginning"
+        },
+        {
+            "kanji": "指",
+            "onyomi": {
+                "romaji": "shi",
+                "kana": "シ"
+            },
+            "kunyomi": {
+                "romaji": "yubi, sa(su)",
+                "kana": "ゆび、さ(す)"
+            },
+            "translation": "finger, point to, indicate"
+        },
+        {
+            "kanji": "権",
+            "onyomi": {
+                "romaji": "ken",
+                "kana": "ケン"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "authority, power, rights"
+        },
+        {
+            "kanji": "支",
+            "onyomi": {
+                "romaji": "shi",
+                "kana": "シ"
+            },
+            "kunyomi": {
+                "romaji": "sasa(eru)",
+                "kana": "ささ(える)"
+            },
+            "translation": "branch, support, sustain"
+        },
+        {
+            "kanji": "産",
+            "onyomi": {
+                "romaji": "san",
+                "kana": "サン"
+            },
+            "kunyomi": {
+                "romaji": "u(mu), mu(su)",
+                "kana": "う(む)、 む(す)"
+            },
+            "translation": "products, bear, give birth"
+        },
+        {
+            "kanji": "点",
+            "onyomi": {
+                "romaji": "ten",
+                "kana": "テン"
+            },
+            "kunyomi": {
+                "romaji": "tsu(keru)",
+                "kana": "つ(ける)"
+            },
+            "translation": "spot, point, mark"
+        },
+        {
+            "kanji": "報",
+            "onyomi": {
+                "romaji": "hou",
+                "kana": "ホウ"
+            },
+            "kunyomi": {
+                "romaji": "mukku(iru)",
+                "kana": "むく(いる)"
+            },
+            "translation": "report, news, reward"
+        },
+        {
+            "kanji": "済",
+            "onyomi": {
+                "romaji": "sai, sei",
+                "kana": "サイ、セイ"
+            },
+            "kunyomi": {
+                "romaji": "su(mu)",
+                "kana": "す(む)"
+            },
+            "translation": "settle, relieve, finish"
+        },
+        {
+            "kanji": "活",
+            "onyomi": {
+                "romaji": "katsu",
+                "kana": "カツ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "living"
+        },
+        {
+            "kanji": "原",
+            "onyomi": {
+                "romaji": "gen",
+                "kana": "ゲン"
+            },
+            "kunyomi": {
+                "romaji": "hara",
+                "kana": "はら"
+            },
+            "translation": "original, primitive, field"
+        },
+        {
+            "kanji": "共",
+            "onyomi": {
+                "romaji": "kyou",
+                "kana": "キョウ"
+            },
+            "kunyomi": {
+                "romaji": "tomo",
+                "kana": "とも"
+            },
+            "translation": "together, both, neither"
+        },
+        {
+            "kanji": "得",
+            "onyomi": {
+                "romaji": "toku",
+                "kana": "トク"
+            },
+            "kunyomi": {
+                "romaji": "e(ru)",
+                "kana": "え(る)"
+            },
+            "translation": "gain, get, find, earn, acquire, can, may, able to, profit"
+        },
+        {
+            "kanji": "解",
+            "onyomi": {
+                "romaji": "kai, ge",
+                "kana": "カイ、ゲ"
+            },
+            "kunyomi": {
+                "romaji": "to(ku), hodo(ku)",
+                "kana": "と(く)、ほど(く)"
+            },
+            "translation": "unravel, explanation"
+        },
+        {
+            "kanji": "交",
+            "onyomi": {
+                "romaji": "kou",
+                "kana": "コウ"
+            },
+            "kunyomi": {
+                "romaji": "maji(waru), ma(zeru), ka(wasu)",
+                "kana": "まじ(わる)、 ま(ぜる)、 か(わす)"
+            },
+            "translation": "mingle, mixing, association, coming & going"
+        },
+        {
+            "kanji": "資",
+            "onyomi": {
+                "romaji": "shi",
+                "kana": "シ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "assets, resources, capital, funds, data, be conducive to"
+        },
+        {
+            "kanji": "予",
+            "onyomi": {
+                "romaji": "yo, sha",
+                "kana": "ヨ、 シャ"
+            },
+            "kunyomi": {
+                "romaji": "arakaji(me)",
+                "kana": "あらかじ(め)"
+            },
+            "translation": "beforehand, previous, myself, I"
+        },
+        {
+            "kanji": "向",
+            "onyomi": {
+                "romaji": "kou",
+                "kana": "コウ"
+            },
+            "kunyomi": {
+                "romaji": "mu(ku), muka(i)",
+                "kana": "む(く)、むか(い)"
+            },
+            "translation": "facing, beyond"
+        },
+        {
+            "kanji": "際",
+            "onyomi": {
+                "romaji": "sai",
+                "kana": "サイ"
+            },
+            "kunyomi": {
+                "romaji": "kiwa",
+                "kana": "きわ"
+            },
+            "translation": "occasion, time"
+        },
+        {
+            "kanji": "勝",
+            "onyomi": {
+                "romaji": "shou",
+                "kana": "ショウ"
+            },
+            "kunyomi": {
+                "romaji": "ka(tsu), masa(ru)",
+                "kana": "か(つ)、 まさ(る)"
+            },
+            "translation": "victory, win"
+        },
+        {
+            "kanji": "面",
+            "onyomi": {
+                "romaji": "men",
+                "kana": "メン"
+            },
+            "kunyomi": {
+                "romaji": "omo, omote, tsura",
+                "kana": "おも、おもて、つら"
+            },
+            "translation": "mask, face, features, surface"
+        },
+        {
+            "kanji": "告",
+            "onyomi": {
+                "romaji": "koku",
+                "kana": "コク"
+            },
+            "kunyomi": {
+                "romaji": "tsu(geru)",
+                "kana": "つ(げる)"
+            },
+            "translation": "revelation, inform"
+        },
+        {
+            "kanji": "反",
+            "onyomi": {
+                "romaji": "han",
+                "kana": "ハン"
+            },
+            "kunyomi": {
+                "romaji": "so(ru)",
+                "kana": "そ(る)"
+            },
+            "translation": "anti-"
+        },
+        {
+            "kanji": "判",
+            "onyomi": {
+                "romaji": "han",
+                "kana": "ハン"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "judgement, signature"
+        },
+        {
+            "kanji": "認",
+            "onyomi": {
+                "romaji": "nin",
+                "kana": "ニン"
+            },
+            "kunyomi": {
+                "romaji": "mito(meru), shitata(meru)",
+                "kana": "みと(める)、したた(める)"
+            },
+            "translation": "acknowledge, witness, recognize"
+        },
+        {
+            "kanji": "参",
+            "onyomi": {
+                "romaji": "san",
+                "kana": "サン"
+            },
+            "kunyomi": {
+                "romaji": "mai(ru)",
+                "kana": "まい(る)"
+            },
+            "translation": "going, coming, participate"
+        },
+        {
+            "kanji": "利",
+            "onyomi": {
+                "romaji": "ri",
+                "kana": "リ"
+            },
+            "kunyomi": {
+                "romaji": "ki(ku)",
+                "kana": "き(く)"
+            },
+            "translation": "profit, advantage, benefit"
+        },
+        {
+            "kanji": "組",
+            "onyomi": {
+                "romaji": "so",
+                "kana": "ソ"
+            },
+            "kunyomi": {
+                "romaji": "ku(mu), kumi",
+                "kana": "く(む)、くみ"
+            },
+            "translation": "association, assemble, unite"
+        },
+        {
+            "kanji": "信",
+            "onyomi": {
+                "romaji": "shin",
+                "kana": "シン"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "faith, truth, trust"
+        },
+        {
+            "kanji": "在",
+            "onyomi": {
+                "romaji": "zai",
+                "kana": "ザイ"
+            },
+            "kunyomi": {
+                "romaji": "a(ru)",
+                "kana": "あ(る)"
+            },
+            "translation": "exist, outskirts"
+        },
+        {
+            "kanji": "件",
+            "onyomi": {
+                "romaji": "ken",
+                "kana": "ケン"
+            },
+            "kunyomi": {
+                "romaji": "kudan",
+                "kana": "くだん"
+            },
+            "translation": "affair, case, matter"
+        },
+        {
+            "kanji": "側",
+            "onyomi": {
+                "romaji": "soku",
+                "kana": "ソク"
+            },
+            "kunyomi": {
+                "romaji": "gawa, soba",
+                "kana": "がわ、そば"
+            },
+            "translation": "side, lean, oppose"
+        },
+        {
+            "kanji": "任",
+            "onyomi": {
+                "romaji": "nin",
+                "kana": "ニン"
+            },
+            "kunyomi": {
+                "romaji": "maka(seru)",
+                "kana": "まか(せる)"
+            },
+            "translation": "responsibility, duty"
+        },
+        {
+            "kanji": "引",
+            "onyomi": {
+                "romaji": "in",
+                "kana": "イン"
+            },
+            "kunyomi": {
+                "romaji": "hi(ku)",
+                "kana": "ひ(く)"
+            },
+            "translation": "pull, tug, jerk"
+        },
+        {
+            "kanji": "求",
+            "onyomi": {
+                "romaji": "kyuu",
+                "kana": "キュウ"
+            },
+            "kunyomi": {
+                "romaji": "moto(meru)",
+                "kana": "もと(める)"
+            },
+            "translation": "request, want, demand"
+        },
+        {
+            "kanji": "所",
+            "onyomi": {
+                "romaji": "sho",
+                "kana": "ショ"
+            },
+            "kunyomi": {
+                "romaji": "tokoro",
+                "kana": "ところ"
+            },
+            "translation": "place, extent"
+        },
+        {
+            "kanji": "次",
+            "onyomi": {
+                "romaji": "ji, shi",
+                "kana": "ジ、シ"
+            },
+            "kunyomi": {
+                "romaji": "tsu(gu), tsugi",
+                "kana": "つ(ぐ)、つぎ"
+            },
+            "translation": "next, order"
+        },
+        {
+            "kanji": "昨",
+            "onyomi": {
+                "romaji": "saku",
+                "kana": "サク"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "yesterday, previous"
+        },
+        {
+            "kanji": "論",
+            "onyomi": {
+                "romaji": "ron",
+                "kana": "ロン"
+            },
+            "kunyomi": {
+                "romaji": "agetsura(u)",
+                "kana": "あげつら(う)"
+            },
+            "translation": "argument, discourse"
+        },
+        {
+            "kanji": "官",
+            "onyomi": {
+                "romaji": "kan",
+                "kana": "カン"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "bureaucrat, the government, organ"
+        },
+        {
+            "kanji": "増",
+            "onyomi": {
+                "romaji": "zou",
+                "kana": "ゾウ"
+            },
+            "kunyomi": {
+                "romaji": "ma(su), fu(eru)",
+                "kana": "ま(す)、 ふ(える)"
+            },
+            "translation": "increase, add"
+        },
+        {
+            "kanji": "係",
+            "onyomi": {
+                "romaji": "kei",
+                "kana": "ケイ"
+            },
+            "kunyomi": {
+                "romaji": "kaka(ru), kakari",
+                "kana": "かか(る)、かかり"
+            },
+            "translation": "person in charge, connection"
+        },
+        {
+            "kanji": "感",
+            "onyomi": {
+                "romaji": "kan",
+                "kana": "カン"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "emotion, feeling, sensation"
+        },
+        {
+            "kanji": "情",
+            "onyomi": {
+                "romaji": "jou, sei",
+                "kana": "ジョウ、セイ"
+            },
+            "kunyomi": {
+                "romaji": "nasa(ke)",
+                "kana": "なさ(け)"
+            },
+            "translation": "feelings, emotion, passion"
+        },
+        {
+            "kanji": "投",
+            "onyomi": {
+                "romaji": "tou",
+                "kana": "トウ"
+            },
+            "kunyomi": {
+                "romaji": "na(geru)",
+                "kana": "な(げる)"
+            },
+            "translation": "throw, discard"
+        },
+        {
+            "kanji": "示",
+            "onyomi": {
+                "romaji": "ji, shi",
+                "kana": "ジ、シ"
+            },
+            "kunyomi": {
+                "romaji": "shime(su)",
+                "kana": "しめ(す)"
+            },
+            "translation": "show, indicate, display"
+        },
+        {
+            "kanji": "変",
+            "onyomi": {
+                "romaji": "hen",
+                "kana": "ヘン"
+            },
+            "kunyomi": {
+                "romaji": "ka(waru)",
+                "kana": "か(わる)"
+            },
+            "translation": "unusual, change, strange"
+        },
+        {
+            "kanji": "打",
+            "onyomi": {
+                "romaji": "da",
+                "kana": "ダ"
+            },
+            "kunyomi": {
+                "romaji": "u(tsu), bu(tsu)",
+                "kana": "う(つ)、ぶ(つ)"
+            },
+            "translation": "strike, hit, knock"
+        },
+        {
+            "kanji": "直",
+            "onyomi": {
+                "romaji": "choku, jiki",
+                "kana": "チョク、 ジキ"
+            },
+            "kunyomi": {
+                "romaji": "tada(chini), su(gu)",
+                "kana": "ただ(ちに)、 す(ぐ)、 なお(す)"
+            },
+            "translation": "straightaway, honesty, frankness, fix, repair"
+        },
+        {
+            "kanji": "両",
+            "onyomi": {
+                "romaji": "ryou",
+                "kana": "リョウ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "both"
+        },
+        {
+            "kanji": "式",
+            "onyomi": {
+                "romaji": "shiki",
+                "kana": "シキ"
+            },
+            "kunyomi": {
+                "romaji": null,
+                "kana": null
+            },
+            "translation": "style, ceremony"
+        },
+        {
+            "kanji": "確",
+            "onyomi": {
+                "romaji": "kaku",
+                "kana": "カク"
+            },
+            "kunyomi": {
+                "romaji": "tashi(ka)",
+                "kana": "たし(か)"
+            },
+            "translation": "assurance, firm, confirm"
+        },
+        {
+            "kanji": "果",
+            "onyomi": {
+                "romaji": "ka",
+                "kana": "カ"
+            },
+            "kunyomi": {
+                "romaji": "ha(tasu)",
+                "kana": "は(たす)"
+            },
+            "translation": "fruit, reward, carry out, achieve, complete"
+        }
+    ]
+}
